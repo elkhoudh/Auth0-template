@@ -22,7 +22,7 @@ function App() {
         <Route
           exact
           path="/"
-          render={props => <LandingPage {...props} auth={auth} />}
+          render={props => <Dashboard {...props} auth={auth} />}
         />
         <Route
           path="/callback"
