@@ -17,7 +17,9 @@ const useStyles = makeStyles(theme => ({
     flexGrow: 1
   },
   card: {
-    maxWidth: 345
+    textAlign: "left",
+    width: "500px",
+    minWidth: "100%"
   },
   media: {
     height: 0,
