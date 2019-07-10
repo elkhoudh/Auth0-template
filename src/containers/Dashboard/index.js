@@ -50,16 +50,19 @@ const Dashboard = props => {
   const fuse = (e, y) => {
     // 2 means it is nested
     const opts = {
+      caseSensitive: true,
       shouldSort: true,
-      threshold: 0.6,
+      tokenize: true,
+      matchAllTokens: true,
+      threshold: 0,
       location: 0,
       distance: 100,
-      maxPatternLength: 32,
+      maxPatternLength: 500,
       minMatchCharLength: 1,
       keys: ["question"]
     };
     const fuse = new Fuse(e, opts);
-    const res = fuse.search(search);
+    const res = fuse.search(search.trim());
     return res;
   };
 
