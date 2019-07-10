@@ -49,7 +49,6 @@ const Dashboard = props => {
 
   const handleChange = e => {
     setSearch(e.target.value);
-    console.log(search);
   };
   const fuse = (e, y) => {
     // 2 means it is nested
