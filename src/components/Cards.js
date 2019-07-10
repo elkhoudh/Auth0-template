@@ -18,8 +18,8 @@ const useStyles = makeStyles(theme => ({
   },
   card: {
     textAlign: "left",
-    width: "500px",
-    minWidth: "100%"
+    width: "100vw",
+    minWidth: "100vw"
   },
   media: {
     height: 0,
