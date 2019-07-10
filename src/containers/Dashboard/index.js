@@ -50,7 +50,6 @@ const Dashboard = props => {
   const fuse = (e, y) => {
     // 2 means it is nested
     const opts = {
-      caseSensitive: true,
       shouldSort: true,
       tokenize: true,
       matchAllTokens: true,
