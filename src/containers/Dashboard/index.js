@@ -6,6 +6,7 @@ import Grid from "@material-ui/core/Grid";
 import { makeStyles } from "@material-ui/core/styles";
 import { red } from "@material-ui/core/colors";
 import TextField from "@material-ui/core/TextField";
+import Typography from "@material-ui/core/Typography";
 
 const useStyles = makeStyles(theme => ({
   textField: {
@@ -75,6 +76,10 @@ const Dashboard = props => {
         onChange={handleChange}
         margin="normal"
       />
+      <Typography variant="body2" color="textSecondary" component="p">
+        There are {fuse(questions).length}/{questions.length} questions
+        available
+      </Typography>
       {fuse(questions).map(q => {
         return (
           <Grid container className={classes.root} spacing={2}>
