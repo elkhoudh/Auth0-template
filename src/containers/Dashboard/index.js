@@ -76,7 +76,7 @@ const Dashboard = props => {
         onChange={handleChange}
         margin="normal"
       />
-      <Typography variant="body2" color="textSecondary" component="p">
+      <Typography variant="body" color="textSecondary" component="h3">
         There are {fuse(questions).length}/{questions.length} questions
         available
       </Typography>

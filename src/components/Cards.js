@@ -14,12 +14,13 @@ import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 
 const useStyles = makeStyles(theme => ({
   root: {
-    flexGrow: 1
+    flexGrow: 1,
+    overflowY: "hidden"
   },
   card: {
     textAlign: "left",
-    width: "100vw",
-    minWidth: "100vw"
+    width: "95vw",
+    minWidth: "95vw"
   },
   media: {
     height: 0,
