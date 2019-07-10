@@ -9,6 +9,9 @@ import TextField from "@material-ui/core/TextField";
 import Typography from "@material-ui/core/Typography";
 
 const useStyles = makeStyles(theme => ({
+  count: {
+    padding: "20px 0"
+  },
   textField: {
     marginLeft: theme.spacing(1),
     marginRight: theme.spacing(1),
@@ -66,6 +69,13 @@ const Dashboard = props => {
     return res;
   };
 
+  const checkSearch = () => {
+    if (search) {
+      return fuse(questions);
+    } else {
+      return questions;
+    }
+  };
   return (
     <>
       <TextField
@@ -76,11 +86,15 @@ const Dashboard = props => {
         onChange={handleChange}
         margin="normal"
       />
-      <Typography variant="body" color="textSecondary" component="h3">
-        There are {fuse(questions).length}/{questions.length} questions
-        available
+      <Typography
+        variant="body"
+        color="textSecondary"
+        className={classes.count}
+        component="h3"
+      >
+        There are {checkSearch().length}/{questions.length} questions available
       </Typography>
-      {fuse(questions).map(q => {
+      {checkSearch().map(q => {
         return (
           <Grid container className={classes.root} spacing={2}>
             <Grid item xs={12}>
