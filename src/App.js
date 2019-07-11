@@ -2,7 +2,6 @@ import React from "react";
 import { Route, Switch } from "react-router-dom";
 import Auth from "./containers/auth-zero/Auth/Auth.js";
 import Dashboard from "./containers/Dashboard";
-import LandingPage from "./containers/LandingPage";
 import Callback from "./containers/auth-zero/Callback/Callback";
 import "./App.css";
 import Onborading from "./containers/Onboarding/Onboarding.js";

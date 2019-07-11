@@ -130,9 +130,9 @@ const Dashboard = props => {
       </Typography>
       {checkSearch().map(q => {
         return (
-          <Grid container className={classes.root} spacing={2}>
+          <Grid container className={classes.root}>
             <Grid item xs={12}>
-              <Grid container justify="center" spacing={6}>
+              <Grid container justify="center">
                 <Grid item>
                   <Card question={q} />
                 </Grid>
