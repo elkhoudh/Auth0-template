@@ -2077,7 +2077,7 @@
     "b": "b. The thrust reverser for Engine #1 is disabled.",
     "c": "c. Both the Engine Fuel Shutoff Valve and the Spar Fuel Shutoff Valve close for Engine #1.",
     "d": "d. The left Bus Tie Breaker is tripped open.",
-    "answer": "4"
+    "answer": "d"
   },
   {
     "question": "What light(s) on the Overheat/Fire Detection panel will cause the Master Caution light to illuminate?",
