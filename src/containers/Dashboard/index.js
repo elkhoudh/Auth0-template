@@ -15,7 +15,8 @@ const useStyles = makeStyles(theme => ({
   textField: {
     marginLeft: theme.spacing(1),
     marginRight: theme.spacing(1),
-    width: 200
+    width: "95vw",
+    textAlign: "center"
   },
   root: {
     flexGrow: 1
@@ -77,6 +78,9 @@ const Dashboard = props => {
   };
   return (
     <>
+      <Typography variant="h3" color="inherit" className={classes.count}>
+        737 Study Guide
+      </Typography>
       <TextField
         id="standard-name"
         label="Search for questions"
@@ -89,9 +93,9 @@ const Dashboard = props => {
         variant="body"
         color="textSecondary"
         className={classes.count}
-        component="h3"
+        component="h6"
       >
-        There are {checkSearch().length}/{questions.length} questions available
+        {checkSearch().length}/{questions.length} Questions
       </Typography>
       {checkSearch().map(q => {
         return (
