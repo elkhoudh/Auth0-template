@@ -1,7 +1,7 @@
 import React from "react";
 
 const Onborading = props => {
-  return <h1>Onborading</h1>;
+  return <h1 onClick={tits}>Onborading</h1>;
 };
 
 export default Onborading;
