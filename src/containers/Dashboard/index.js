@@ -77,31 +77,6 @@ const Dashboard = (props) => {
     }
   };
 
-  const checkPercentage = () => {
-    let a = [],
-      b = [],
-      c = [],
-      d = [];
-    questions.map((q) => {
-      if (q.answer.toLowerCase() === "a") {
-        a.push(q.answer);
-      } else if (q.answer.toLowerCase() === "b") {
-        b.push(q.answer);
-      } else if (q.answer.toLowerCase() === "c") {
-        c.push(q.answer);
-      } else if (q.answer.toLowerCase() === "d") {
-        d.push(q.answer);
-      }
-    });
-
-    return {
-      a: Math.round((a.length / questions.length) * 100 * 100) / 100,
-      b: Math.round((b.length / questions.length) * 100 * 100) / 100,
-      c: Math.round((c.length / questions.length) * 100 * 100) / 100,
-      d: Math.round((d.length / questions.length) * 100 * 100) / 100,
-    };
-  };
-
   return (
     <>
       <Typography variant="h3" color="inherit" className={classes.count}>
@@ -115,19 +90,6 @@ const Dashboard = (props) => {
         onChange={handleChange}
         margin="normal"
       />
-      <Typography
-        variant="body"
-        color="textSecondary"
-        className={classes.count}
-        component="h6"
-      >
-        {checkSearch().length}/{questions.length} Questions <br />
-        <br />
-        {checkPercentage().a}% of "A" answers <br />
-        {checkPercentage().b}% of "B" answers <br />
-        {checkPercentage().c}% of "C" answers <br />
-        {checkPercentage().d}% of "D" answers <br />
-      </Typography>
       {checkSearch().map((q) => {
         return (
           <Grid container className={classes.root}>
