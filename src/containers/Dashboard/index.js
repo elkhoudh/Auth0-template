@@ -8,47 +8,47 @@ import { red } from "@material-ui/core/colors";
 import TextField from "@material-ui/core/TextField";
 import Typography from "@material-ui/core/Typography";
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   count: {
-    padding: "30px 0"
+    padding: "30px 0",
   },
   textField: {
     marginLeft: theme.spacing(1),
     marginRight: theme.spacing(1),
     width: "95vw",
-    textAlign: "center"
+    textAlign: "center",
   },
   root: {
-    flexGrow: 1
+    flexGrow: 1,
   },
   card: {
-    maxWidth: 345
+    maxWidth: 345,
   },
   media: {
     height: 0,
-    paddingTop: "56.25%" // 16:9
+    paddingTop: "56.25%", // 16:9
   },
   expand: {
     transform: "rotate(0deg)",
     marginLeft: "auto",
     transition: theme.transitions.create("transform", {
-      duration: theme.transitions.duration.shortest
-    })
+      duration: theme.transitions.duration.shortest,
+    }),
   },
   expandOpen: {
-    transform: "rotate(180deg)"
+    transform: "rotate(180deg)",
   },
   avatar: {
-    backgroundColor: red[500]
-  }
+    backgroundColor: red[500],
+  },
 }));
 
-const Dashboard = props => {
+const Dashboard = (props) => {
   const classes = useStyles();
   const [questions] = useState(data);
   const [search, setSearch] = useState("");
 
-  const handleChange = e => {
+  const handleChange = (e) => {
     setSearch(e.target.value);
   };
   const fuse = (e, y) => {
@@ -62,7 +62,7 @@ const Dashboard = props => {
       distance: 100,
       maxPatternLength: 500,
       minMatchCharLength: 1,
-      keys: ["question"]
+      keys: ["question"],
     };
     const fuse = new Fuse(e, opts);
     const res = fuse.search(search.trim());
@@ -82,7 +82,7 @@ const Dashboard = props => {
       b = [],
       c = [],
       d = [];
-    questions.map(q => {
+    questions.map((q) => {
       if (q.answer.toLowerCase() === "a") {
         a.push(q.answer);
       } else if (q.answer.toLowerCase() === "b") {
@@ -98,14 +98,14 @@ const Dashboard = props => {
       a: Math.round((a.length / questions.length) * 100 * 100) / 100,
       b: Math.round((b.length / questions.length) * 100 * 100) / 100,
       c: Math.round((c.length / questions.length) * 100 * 100) / 100,
-      d: Math.round((d.length / questions.length) * 100 * 100) / 100
+      d: Math.round((d.length / questions.length) * 100 * 100) / 100,
     };
   };
 
   return (
     <>
       <Typography variant="h3" color="inherit" className={classes.count}>
-        737 Study Guide
+        A320 Study Guide
       </Typography>
       <TextField
         id="standard-name"
@@ -128,7 +128,7 @@ const Dashboard = props => {
         {checkPercentage().c}% of "C" answers <br />
         {checkPercentage().d}% of "D" answers <br />
       </Typography>
-      {checkSearch().map(q => {
+      {checkSearch().map((q) => {
         return (
           <Grid container className={classes.root}>
             <Grid item xs={12}>

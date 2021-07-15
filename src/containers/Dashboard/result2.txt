@@ -1,0 +1,521 @@
+What is the maximum wind for takeoff and landing? 
+50 Knots (including gusts)
+What is the maximum crosswind for takeoff and landing? 
+35 Knots (including gusts)
+What is the maximum operating altitude with flaps and/or slats extended? 
+20,000 feet
+What is the maximum gear extension altitude? 
+25,000 feet
+What is the maximum operating airspeed (SL to FL 246)? 
+350 KIAS
+What is the maximum operating mach number (above FL 246)? 
+.82M
+Icing conditions exist when OAT (on the ground and for takeoff) or TAT (inflight) is _____ and visible moisture exists? 
+10° C or below
+The maximum service ceiling for the aircraft is: 
+39,000
+Engine Anti-ice must be on for all ground and flight operations when icing conditions exist or are anticipated, except during climb and cruise when the temperature is ________? 
+Below -40° C SAT
+What is the minimum height for use of the autopilot after takeoff in SRS mode? 
+100 feet AGL
+What is the maximum allowable in-flight difference between captain and first officer PFD altitude displays for RVSM operations? 
+200 feet
+The cockpit door will automatically unlock during a decompression or if electrical power is lost. 
+True
+If you lose electrical power to the cockpit door: Cockpit door will automatically unlock To evacuate through the door escape panel: 
+Remove the two quick release pins
+Which hydraulic system supplies hydraulic pressure to open and close the cargo doors? 
+Yellow System
+If the Yellow electric pump is not available, ground personnel can open or close the cargo doors by: 
+Using a hand pump on the hydraulic maintenance panel
+Which of the following DOES NOT provide input to the pressurization controllers? 
+FADECs
+The input provided by the Flight Management and Guidance Computers (FMGCs) enable the pressurization controllers to: 
+Know the planned cruise altitude and plan the cabin climb profile accordingly.
+The following areas are not pressurized: 
+Radome, landing gear bays, air conditioning compartment and tail.
+The pressurization controllers use the elevation of your destination airport to plan the descent profile. In normal operations, this information is provided: 
+By the FMS database once you enter the destination airport into the MCDU.
+The two pneumatic pressurization safety valves: 
+Open automatically when it becomes necessary to relieve excess positive or negative cabin pressure differentials.
+After landing, the active and standby pressurization controllers: 
+Automatic transfer occurs after 70 seconds.
+With the pressurization in manual mode, the outflow valve is now controlled by: 
+The MAN V/S control switch.
+With MODE SEL in MAN, moving the MAN V/S: UP opens the outflow valve and DN closes it. The ditching pushbutton is used to: 
+Close all fuselage openings below the floatation line
+On landing, cabin altitude will be: 
+Slightly lower than field pressure altitude.
+In Ground Mode, the outflow valve will: 
+Gradually open during landing rollout.
+Pressurization Abort Mode: 
+Is activated if aircraft must return to the departure airport after takeoff.
+With the GALY & CAB pb in the AUTO position and only one engine generator operating: 
+Automatic Galley Bus shedding occurs for the main galley, in-seat power supply, and in-flight entertainment.
+A FAULT light in the GALY & CAB pb appears when any generator load is above 100% of its rated output. 
+True
+All circuit breakers on the overhead panel are associated with systems which are powered: 
+While in the emergency electrical configuration.
+Activation of the RAT MAN ON pb will cause immediate deployment of the RAT except when no power is on the aircraft. 
+False
+The electrical system consists of: 
+All
+When external power is connected to the aircraft, a green AVAIL light indicates: 
+External power is connected with acceptable voltage and frequency.
+During non-normal conditions, the IDG may be disconnected for its engine and: 
+All
+The RAT automatically deploys when: 
+Power is not available for AC Bus 1 and AC Bus 2 and airspeed greater than 100 knots.
+You can deploy the RAT and activate the emergency generator using the MAN ON pb. 
+True
+The APU generator always takes priority over an engine driven generator and/or external power. 
+False
+The APU driven generator: 
+Can be used as the sole source of electrical power on the ground.
+When the APU generator is on and no other AC sources are available, the APU can power the entire electrical system on the ground. 
+True
+The AVAIL light illuminated on the EXT PWR pb means:
+Voltage and frequencies are acceptable
+What does the OFF message under the APU GEN on the ELEC page indicate? 
+APU GEN pb has been selected OFF with the APU running.
+What electric source has priority with the engines off, APU available and the EXT PWR pb switch is ON. 
+Ext Power
+Disconnecting an IDG: 
+Renders the associated electrical generator inoperative
+ To avoid damage to the IDG, what must not be pressed for more than 3 seconds? 
+ IDG disconnect pbs
+The “RAT OUT” memo on the E/WD indicates: 
+The RAT has deployed
+Select the statement which best describes the normal A319 fuel feed after takeoff with the slats retracted. 
+Center tank then wing tank inner cell
+Which statement is true regarding fuel pressure for the APU? 
+Fuel pressure is normally supplied by the fuel tank pumps pressurizing the fuel manifold.
+How is fuel transferred from the wing outer cell to the wing inner cell? 
+Transfer valves The fuel system is also used for: IDG Cooling
+What does the Green ECAM memo CTR TK FEEDG in the memo Section mean? 
+At least one CTR tank pump is delivering fuel to the engines.
+The white OFF light on the fuel pump pb indicates: 
+The fuel pump pb is selected off.
+Alternate braking WITH antiskid activates automatically following: 
+Failure of the Green hydraulic system
+The nose wheel steering is electrically controlled and hydraulically operated by the __________ hydraulic system. 
+Green (basic aircraft) or Yellow (enhanced aircraft)
+The main gear and doors are electrically controlled and hydraulically operated by the _________ hydraulic system. 
+Green
+Above______knots, provided the ground spoilers are armed, moving the thrust levers to idle signals the flight control system to deploy the ground spoilers. 
+72
+ The two Landing Gear Control Interface Units (LGCIU 1 & LGCIU 2): 
+ Swap roles as controlling and back up of gear extension and retraction each time the landing gear is raised.
+The maximum indicated airspeed for gear extension is ______ knots and for gear retraction is ______ knots. 
+250, 220
+The landing gear is controlled by ____ Landing Gear Control Interface Units, or LGCIUs. 
+Two
+The LGCIUs send information to various systems about whether the aircraft is on ground or in flight. 
+True
+Braking and nose wheel steering are controlled by the _________ Unit. 
+BCSU
+Prior to takeoff, autobrakes can be armed using the ______ pushbutton. 
+Max
+Autobrakes MAX is used only for takeoff. 
+True
+When MAX is armed, maximum auto braking is immediately applied when the ______________ signal is triggered. 
+Ground spoiler deployment order
+For normal braking: 
+All of the Above
+If both the Green and Yellow hydraulic systems fail, braking is still possible through a________. 
+Dedicated accumulator
+Alternate braking is available with accumulator pressure from the ________ hydraulic system. 
+Yellow
+The chemical generators when activated will provide passengers with approximately how many minutes of oxygen flow? 
+15 Mins
+The cabin oxygen masks can be manually deployed at any time by: 
+Pushing the guarded pb labeled MASK MAN ON.
+The status of the flight deck oxygen system is found on what system page of the ECAM? Door On the DOOR/OXY page, what is the current pressure of the flight deck oxygen system? 
+1850
+ At approximately what cabin altitude will the automatic cabin mask deployment signal be sent? 
+ 14,000
+After maintenance replaces your crew oxygen bottle, you notice the `CKPT OXY` indication is showing 980 psi in green, with an amber half-frame around the numeric value. What does this mean to you? 
+The pressure has dropped below 1000 psi.
+When the “CKPT OXY” amber message is displayed in the upper right hand corner of the ECAM DOOR page and all other indications appear normal, this informs you that: 
+The CREW SUPPLY pb is selected to OFF on the oxygen panel on the overhead.
+Illumination of PASSENGER `SYS ON` light on the OXYGEN overhead panel indicates that: 
+A signal has been sent automatically or manually to open the storage doors.
+
+Engine-Ice must be turned ON during all ground and flight operations in icing conditions. The definition of icing is: 
+OAT is less than or equal to 10 degrees C and visible moisture.
+
+Referencing this FMA, which Flight Director(s) is(are) selected on? 
+CA
+Referencing this FMA, which Autopilot(s) are in use? 
+Both CA and FO
+When either Autopilot is engaged, the Autothrust also automatically engages.
+False
+You are hand flying with the Autopilot OFF. If you are not going to follow the Flight Director guidance, you should turn the Flight Directors OFF. 
+True
+FMGC 1 normally controls the autothrust system, regardless of which autopilot is engaged. 
+False
+A/THR in white on the FMA indicates that: 
+the autothrust is active.
+ During flight, with the autothrust engaged, pulling the thrust levers out of the CLB detent and positioning them at the midway point will? 
+ Limit the amount of thrust available, autothrust will remain engaged.
+During flight, if the thrust levers are positioned to the idle detent, the autothrust is: 
+Disconnected
+The difference between TOGA Lock and Thrust Lock is: 
+TOGA Lock provides maximum thrust and Thrust Lock maintains the current thrust being used.
+The pilot pushed the speed, heading, and altitude knobs. Which type of guidance are the speed, vertical, and lateral modes now? 
+Managed
+What color shows managed speed and managed altitude targets? Magenta Which color indicates an engaged mode of the FMA? 
+Green
+What effect on the autothrust system does setting the thrust levers below the CL detent have? 
+The autothrust active range is now limited to the thrust lever position.
+Which of these vertical modes will respect any altitude constraints in the FMGS? 
+CLB
+What is the preferred method of disengaging the autothrust? 
+Match the TLA’s to current thrust and then press the instinctive disconnect pb on the thrust levers.
+It is important that pilots fly with both flight directors ON or both flight directors OFF. 
+True 
+An autopilot may be engaged as soon as: 
+100 Feet
+The overwing escape slides are continuously armed and will automatically deploy when the exit is opened. 
+True
+Escape slide lights, built into the fuselage, will not illuminate automatically upon deployment of any slide. 
+False
+The ECAM HYD page display shows that: 
+The ENG 2 FIRE pb has been pressed.
+In the Yellow system, hydraulic fluid is currently prevented from flowing to the engine driven pump. Based on the ECAM, the Yellow hydraulic system is being pressurized via the ELEC Pump. 
+False
+The Green hydraulic system can be pressurized by: 
+The #1 engine-driven pump or the PTU.
+The Yellow hydraulic system can be pressurized by: 
+The #2 engine-driven pump, the PTU, an electric pump or a hand pump.
+The Blue hydraulic system can be pressurized by: 
+An electric pump or a RAT-driven pump. 
+When there is a hydraulic system non-normal, the ______will also alert the pilots. 
+E/WD When the PTU is operating: 
+Pressure transfers between the Green and Yellow systems. Once deployed, how can the RAT be stowed? 
+Only on the ground
+What cockpit lighting is available in EMERG ELEC CONFIG? 
+Dome light over the FO’s seat & CA instrument flood lights
+What does the highlighted switch control? 
+Dome lights above the Captain''s and FO’s seats.
+Where are the EXT LT switches located? 
+Overhead Panel
+The airspeed limitation for the retractable landing lights is 290kts. 
+False
+With the EMER EXIT LT switch set to ARM, which cabin light(s) is/are armed to illuminate automatically if AC BUS 1 is unpowered? 
+Overhead Emergency Lights
+With AC BUS 1 unpowered, what is the normal source of power for the Emergency lights? 
+DC ESS SHED BUS
+With DC ESS SHED BUS shed, all three sets of emergency lights are powered by self-contained battery packs. 
+True
+In this EXT LT configuration, the Strobe lights are: 
+OFF
+In this EXT LT configuration, the Strobe lights are: 
+Auto
+The smaller light on the nose landing gear is the: 
+Taxi Light
+The larger light on the nose landing gear is the: 
+Takeoff light
+When the NOSE light switch is placed in the Taxi position: 
+Only the smaller taxi light illuminates 
+When the NOSE light switch is in the T.O. position: 
+Both lights on the nose gear are illuminated 
+The nose gear lights remain on when the nose gear retracts. 
+False
+What are the arrows pointing toward on the nose gear? 
+Runway turnoff lights
+With the Strobe lights in AUTO: 
+Strobe lights only operate when the aircraft is in flight
+The smaller light on the nose landing gear is the: 
+Taxi Light
+The larger light on the nose landing gear is the: 
+Takeoff Light
+When is the GND symbol displayed on the SD ECAM BLEED Page? 
+Whenever the aircraft is on the ground
+The Bleed Monitoring Computers (BMCs) command the engine bleed valves to close whenever: 
+Any of the Above
+Engine and APU bleed air are the only air sources for the pneumatic system. 
+False 
+Which pb would you press to manually close this valve?
+With the X BLEED knob in the AUTO position, the crossbleed valve opens and closes in response to the: 
+APU
+While in AUTO, the crossbleed valve will also automatically close in response to a bleed leak. 
+True
+ Above what altitude must the APU bleed valve be closed? 
+ 20,000
+The APU bleed valve is spring-loaded to the closed position in the absence of air flow. 
+True
+With this GPWS panel configured as shown, which statement below is true? 
+All five of the GPWS basic mode warnings are inhibited.
+Select the correct alerting priority order. 
+Stall Warning
+You must make sure the loudspeakers are turned up loud enough so that you can hear the aural GPWS warnings. 
+False
+If the TERR ON ND pb is selected to OFF: 
+Terrain alerting will still be available for predictive warning of High Terrain ahead of the aircraft.
+As the aircraft approaches within 750ft of the selected FCU altitude with the A/P off: 
+The aural alert sounds and the PFD`s altitude window pulses yellow.
+Reactive windshear warnings function during takeoff and landings: 
+below 1300ft AGL and at configuration Flaps 1 or greater.
+The Terrain Clearance Floor is: 
+Not predictive. The aircraft must actually penetrate the TCF to trigger a warning.
+Pressing the T.O. Config. key on the ECAM control panel: 
+Simulates the application of Takeoff Thrust.
+Which item causes a takeoff configuration warning when the thrust levers are placed to a takeoff thrust setting while on the ground but does not cause a warning when the T.O. CONFIG key is pressed after engine start? 
+Parking Brake
+The T.O. CONFIG warning system is activated automatically when you bring the thrust levers to a takeoff thrust setting while on the ground. 
+True
+To use the PA handset to make a PA announcement: 
+You press the PTT switch on the handset and hold while talking.
+Which radio is normally dedicated to ACARS communications? 
+VHF 3 is dedicated to ACARS but can be used for voice communications if needed
+VHF 3 can also be used as an additional radio for voice communications if necessary. 
+True
+The transfer key is used to transfer the frequency displayed in the STBY window to the ACTIVE frequency window. 
+True
+For HF radios, the HF radio antenna must be tuned by pressing a PTT selector. A tone is briefly heard, confirming the antenna tuning. 
+True
+The CVR operates automatically: 
+All
+Which transmission key alerting light does NOT extinguish automatically after a short period of time if the RESET pb is not used? 
+CALL
+The ACP is the: 
+Audio Control Panel
+The Radio Management Panels, RMPs, are used: 
+Exclusively to tune frequencies for various radios, including navaids if necessary
+The RMP is the: 
+Radio Management Panel
+The selection of a transmission key does not select that communications device for reception. 
+True
+The SEL light illuminates on both RMPs when: 
+RMP is selected to a non-dedicated radio
+An amber CALL light flashing on VHF means: 
+A SELCAL from a ground radio station has been received
+
+Which of the following does NOT have a fire extinguishing system installed? 
+Avionics
+ Which statement is true regarding cargo compartment fire extinguishing, except the A321H? 
+ There is only one halon fire bottle. It can be discharged into either compartment, but not both.
+Which statement accurately describes each engine’s dedicated fire detection system? 
+All of the Above
+Which indications appear in the flight deck after an APU fire has been extinguished on the ground? 
+The APU FIRE pushbutton light is not illuminated, while the AGENT DISCH light is illuminated
+All of these areas on the A319 have fire detection. Which of these has fire detection but no fire protection? 
+Avionics Bay
+What section of the engine does not have Fire Detection Loops? 
+Exhaust
+The APU automatically shuts down and discharges a fire bottle when a fire is detected on the ground. 
+True
+If Avionics Smoke is detected, what system page comes up automatically on the lower ECAM? 
+ELEC
+Cargo compartment smoke detection is provided by: 
+Particulate sensing smoke detectors, located in both cargo compartments.
+Why does the Smoke Light continue to illuminate after the Cargo Agent has been discharged? 
+Particles still exist
+The lavatory smoke detection system: 
+Provides indications in both the flight deck and cabin that smoke has been detected in a lavatory, with the specific lavatory identified in the cabin.
+The DISCH amber light on the ENG 1 Fire panel indicates: 
+The halon bottle is discharged.
+
+When icing conditions exist, when should engine anti-ice be selected on? 
+During all ground and flight operations.
+The Airfoil anti-ice system provides protection for the following? 
+The three outboard slats
+ Under what ECAM page would you get information about the anti-ice system? 
+ BLEED
+Which statement is correct regarding rain repellent? 
+It can be used in moderate to heavy rain conditions.
+When will the window and the probe heat come on with the PROBE/WINDOW HEAT pushbutton in the AUTO position? 
+After the first engine is started
+Probe heat can be activated prior to engine start by: 
+pressing the PROBE/WINDOW HEAT pushbutton
+One ILS receiver is combined with one GPS receiver to form a(n): Multi-Mode Receiver (MMR). According to the ND, what are VOR 1 and VOR 2 tuned to? 
+ODI
+What information is VOR 2 telling the pilot? 
+Ground based transmitter failure
+What is a red VOR 2 on the ND mean? 
+VOR 2 Receiver has failed
+The SRS (Speed Reference System) is a managed speed relating to what phase of flight? 
+Takeoff
+If you are flying an ILS approach, what must you press on this EFIS panel? 
+LS pushbutton
+According to the FMA, the APPR button has been pressed and: 
+Glideslope and Localizer is armed
+What do the arrows on the PFD indicate? Associated receiver has failed in flight Based on the FMA, how many Flight Directors are on? 
+2
+The yellow arrow is pointing to the M. This symbol on the ND indicates: 
+The VOR has been manually tuned
+Based on the RADIO NAV, in the CRS field: 
+A course of 165 has been manually inserted in the Radio Nav page.
+Based on the ND displaying “R”: 
+VOR frequency is tuned with the RMP
+ How do you deselect standby tuning of the RMP? 
+ Deselect the guarded NAV button. 
+ The RADIO NAV page displays navaids tuned by the FMGS or flight crew. 
+ True
+On aircraft with operational automatic alignment to GPS position, latitude and longitude entry is not required during FMGS preflight. 
+True
+The FMGS remains in the Go-Around phase until the Activate APPR prompt is selected or: 
+A new destination is entered.
+Which of the following is true regarding the MCDU during takeoff? 
+The PM should display the PERF page, while the PF should display the F-PLAN page.
+Which of the following regarding the SRS system on takeoff is correct? 
+All of the Above
+Shortly after takeoff, LVR CLB flashes in column 1 of the FMA, indicating that: 
+The thrust reduction altitude entered on the PERF page has been reached.
+During taxi for takeoff, ATC revises the departure runway. After correctly updating the departure runway in the FMGS, the scratchpad message CHECK TAKE OFF DATA appears. What does this message indicate? 
+The V1, VR and V2 speeds should be confirmed against the takeoff data.
+If an APU Fire is detected on the ground: 
+The APU automatically shuts down and the halon extinguisher is automatically discharged
+The APU may be started and operated in flight. Which of the following is also true? 
+The APU may be operated up to the maximum certified pressure altitude of 39,000 feet.
+You have just selected the APU MASTER SW pb to ON. You now select the APU START pb to ON. Which statement is correct? 
+The ECB will not engage the electric starter until the power-up self test is completed satisfactorily and the air intake flap is fully open.
+How do you start the APU? 
+Press the APU MASTER SW pushbutton, followed 5 seconds later, by the APU START pushbutton.
+Normally, how do you shut down the APU? 
+Press the APU MASTER SW pushbutton only.
+ The APU generator has the same power output as an engine generator. 
+ True
+Fuel for APU operation is normally supplied from: 
+The left fuel feed line, through the engine 1 feed line.
+
+Automatic control of the avionics ventilation system is provided by: 
+A single Avionics Equipment Ventilation Computer (AEVC).
+You can monitor the operation of the avionics ventilation system inlet and extract valves: 
+On the CAB PRESS page.
+To cool avionics ventilation air, the skin heat exchanger: 
+Uses the temperature of the exterior of the aircraft’s fuselage in certain modes of operation.
+The open configuration of the avionics ventilation system: 
+Uses outside air to ventilate the avionics equipment.
+Status of the Avionics Ventilation System may be monitored on the: 
+CAB PRESS page.
+The fwd cargo compartment on some aircraft: 
+Is heated and ventilated.
+Heating, if installed, for the fwd cargo compartment: 
+All of the Above
+In the open configuration, the skin heat exchanger isolation valve is ____ and the heat exchanger is ____. 
+closed / bypassed.
+If the AEVC senses smoke in the avionics compartment, an Avionics Smoke Caution is generated and after placing the Blower pb and Extract pb to override, the following is accomplished: 
+All of the Above
+Unlike the normal operating configurations, the Avionics Smoke Configuration doesn't occur automatically, and the crew must manually set the Avionics Smoke Configuration by: 
+Using the Blower pb and Extract pb.
+In the event of a forward cargo compartment overheat condition, or if the Hot Air pb is selected to OFF, the Trim Air Valve closes and airflow to the forward cargo compartment is shut off. 
+True
+ The closed configuration of the avionics ventilation system: 
+ All of the Above
+Once engine bleed air is available to the packs, if pack flow selector is selected to Low, what percentage of normal flow is provided? 
+80%
+HI flow rates are automatically commanded regardless of Pack Flow selector position when: 
+Both A and B
+The ACARS takeoff data function is available for the: 
+active flight plan only.
+What power setting does Alpha Floor command? 
+TOGA
+Which controls are available in Mechanical Back up? 
+Rudder and THS
+Your aircraft is currently in a climb with a nose-up pitch attitude. You are hand-flying the aircraft and both sidesticks are currently in the neutral position. You are asking the flight control computers for: 
+No change in load factor.
+The A320 cannot be stalled in normal law. 
+True
+If both sidesticks are moved in the same direction at the same time: 
+The total demand is never more than what can be realized with full deflection on only one sidestick.
+You are hand-flying the aircraft. According to the indications shown: 
+The CA has pressed and held the left sidestick takeover pb and the right sidestick is making unwanted inputs to the flight control computers.
+Hydraulic power for the elevator servos comes from which system? 
+All 3
+There is a manual elevator control in the event of multiple computer or hydraulic system failures. 
+False
+Control of the rudder is provided by the: 
+FACs
+ Mechanical control of the THS is available from the __________ at any time, if either the Green or Yellow system is functioning. 
+ Pitch Trim Wheel
+In Normal Law what does a lateral side stick input command? 
+A Roll Rate
+Which of these flight control computers will function during emergency electrical configuration? 
+ELAC 1, SEC 1, FAC 1
+If either ELAC fails, the other ELAC can provide full control with no loss of system functionality. 
+True
+Control of the rudder is provided by the: 
+FACs
+Which statement below is true concerning the SECs? 
+Three SECs provide direct control of the spoilers. SECs 1 and 2 provide backup control of the elevators and THS.
+The elevators are: 
+Independently moved by one of two electronically-controlled servos that serve each elevator.
+In normal flight operations, pitch trim is: 
+Automatic and can be monitored on the F/CTL page and on the trim position scales next to the trim wheels.
+Rudder trim is: 
+Accomplished by displacing the entire rudder surface and is automatic when the autopilot is engaged.
+Engaging the autopilot causes both sidesticks to be centered. 
+True
+The pitch trim wheels do not move when automatic trimming is in progress. 
+False
+This failure message represents an: 
+ECAM warning which provides crew awareness and requires immediate crew action
+A Warning is the highest level ECAM alert. It is associated with a Red ECAM failure message, flashing Master Warning lights and: 
+A continuous repetitive chime.
+Which computers are responsible for generating the images that are ultimately displayed on the display units? 
+The DMCs
+ What does the magenta dagger represent? 
+ An ILS or localizer inbound course has been selected, and this represents the inbound course.
+An ECAM system advisory: 
+Causes the appropriate systems page to appear automatically on the SD when a system parameter exceeds the normal operational range, but has not exceeded a preset limit.
+What information does the IR portion of the ADIRU provide? 
+Present position and attitude
+Each ADIRU is made up of two components. The two components are the following: 
+ADR, which provides pitot/static related information, and the IRU, which provides gyroscopic and accelerometer related information.
+Which of the following is NOT calculated by the ADR portion of the ADIRUs?
+Ground speed
+The Digital Flight Data Recorder (DFDR) is automatically energized: 
+All of the Above
+Whenever AC power is established, the upper and lower ECAMs are powered. 
+True
+The ECAM control panel is located on the center pedestal immediately below the SD. Which statement below is correct? 
+All of the Above
+The ECAM is designed to provide fault monitoring as well as corrective procedural checklists when a malfunction is detected. 
+True
+The STATUS page provides a summary of inoperative aircraft systems. Which of the following is also true regarding the STATUS Page? 
+All of the Above
+You no longer wish to view the HYD Page. To remove it from the SD you: 
+All of the Above
+To display the CRUISE page on the SD: 
+No action is required. It appears automatically shortly after takeoff, as long as no system malfunctions are present.
+The PFD should be displayed on which display unit? Outboard display unit. Where is ILS information displayed when the LS pb is used? 
+PFD
+The Radar Control Panel is NOT set up correctly for takeoff. 
+True
+ Radar returns displayed at ranges greater than 80 miles should be used for strategic evaluation only. 
+ True
+On the weather radar display, Red indicates what type of return? 
+Strong to very strong.
+With the MULTISCAN switch set to AUTO, ground clutter is minimized from the screen. 
+True
+The intensity of the radar display is controlled by: 
+The outer ring of the ND brightness control knob.
+With the TILT knob set to 0, the radar beam is pointed: 
+At the horizon as defined by the ADIRS.
+In order for areas of turbulence to be displayed, the ND range must be set to ______ miles or less. 
+40
+The CA and FO can control their radar range displays independently. 
+True 
+Weather radar images can be displayed on all ND modes except: 
+PLAN
+During takeoff below 100 kts, the radar system provides automatic predictive windshear alerts. 
+True
+The Airbus Multiscan Radar: 
+Uses advanced technology to control and analyze radar returns. 
+When the MULTSCAN is in AUTO mode, gain and tilt control is automatic. 
+True
+When the MULTSCAN is in AUTO mode: 
+Only weather returns that are a threat to the aircraft are displayed.
+The black area on weather radar indicates: Minimal or no precipitation. What precipitation level does the color yellow stand for? 
+Moderate
+What precipitation level does the color red stand for? 
+Strong to Very Strong
+
+Primary engine indications are displayed on the: E/WD During a manual start, how many igniters are in use? 
+2
+The FADEC provides protection against exceeding N1, N2 overspeed, and monitors EGT during start on the ground. 
+True
+Maximum thrust is referred as: 
+TOGA
